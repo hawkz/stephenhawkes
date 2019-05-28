@@ -19,13 +19,14 @@
             <li><a id="twit" href="http://twitter.com/{{ site.owner.twitter }}" target="_blank"><span class="foot-link">@{{ site.owner.twitter }}</span></a></li>
             {% endif %}
 
+
             {% if site.owner.dribbble %}
             <li><a id="drib" href="http://dribbble.com/{{ site.owner.dribbble }}" target="_blank"><span class="foot-link">Dribbble</span></a></li>
             {% endif %}
         </ul>
     </div>
     </aside>
-    <small>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}.</small>
+    <small>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://jekyll.gtat.me/about">Balzac</a> theme.</small>
   </footer>
 
   <!-- If they're out, get some from the cellar -->
@@ -34,6 +35,7 @@
 
   <!-- Custom JS -->
   <script src="{{ site.url }}/assets/js/scripts.js"></script>
+
 
   </body>
 </html>

@@ -1,5 +1,7 @@
 ---
 layout: home
 title: "Recent Posts"
-tags: [blog, home]
+tags: [Jekyll, theme, responsive, blog, template]
+image:
+  feature: typewriter.jpg
 ---
