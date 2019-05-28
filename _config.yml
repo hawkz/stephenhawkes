@@ -2,8 +2,8 @@ remote_theme: hawkz/Balzac-for-Jekyll
 
 title:            Stephen Hawkes
 tagline:          He has kept news
-description:      Stephen Hawkes' blog
-canonical: http://www.stephenhawkes.com/
+description:      Stephen Hawkes personal blog
+canonical: http://stephenhawkes.com/
 
 # Owner/author information
 owner:
