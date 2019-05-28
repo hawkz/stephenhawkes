@@ -27,7 +27,6 @@
 
   .site-header .site-nav {
     float: right;
-    margin-top: .25rem;
   }
 
   blockquote {
@@ -48,11 +47,19 @@
   html {
     font-size: 18px;
   }
+  .site-header .site-nav {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 @media screen and (min-width: $viewport-large) {
   html {
     font-size: 20px;
+  }
+  .site-header .site-nav {
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -60,5 +67,9 @@
   em img {
     max-width: $measure-width + 14;
     margin-left: -7em;
+  }
+  .site-header .site-nav {
+    margin: 0;
+    padding: 0;
   }
 }

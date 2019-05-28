@@ -23,7 +23,7 @@ bing_verification:
 
 # Optional features
 animated:             false
-show_related_posts:   false
+show_related_posts:   true
 show_post_footers:    false
 show_social_icons:    false
 ajaxify_contact_form: false
@@ -67,12 +67,12 @@ telegram_username:
 vk_id:
 
 # Post sharing icons
-show_sharing_icons: true
+show_sharing_icons: false
 # Change to 'true' to enable individual icons
 share_facebook: false
-share_twitter: true
+share_twitter: false
 share_googleplus: false
-share_linkedin: true
+share_linkedin: false
 share_digg: false
 share_tumblr: false
 share_reddit: false
@@ -117,7 +117,7 @@ markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
-paginate:     4
+paginate:     10
 sass:
   style: compressed
 plugins:

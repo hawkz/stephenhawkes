@@ -1,6 +1,8 @@
 .site-header {
   padding-top: $space-1;
   padding-bottom: $space-2;
+  background: #fff;
+  border-bottom: thin solid #f3f3f3;
 }
 
 .site-header a {
@@ -15,19 +17,19 @@
 }
 
 .site-nav {
-  padding-top: $nav-padding;
+  line-height:  37.5px;
 }
 
 .site-header nav a {
   color: $nav-color;
 }
 
-.site-header nav a:hover,
-.site-header nav a:focus,
-.site-header nav a:active,
-.site-header nav a.nav-active:hover,
+.site-header nav a.nav-active:active,
 .site-header nav a.nav-active:focus,
-.site-header nav a.nav-active:active {
+.site-header nav a.nav-active:hover,
+.site-header nav a:active,
+.site-header nav a:focus,
+.site-header nav a:hover {
   color: $nav-link-color;
   opacity: 1;
   border-bottom: $nav-link-border-bottom;
@@ -41,17 +43,144 @@
   margin-left: $nav-link-padding-x;
 }
 
-.site-header a:hover,
 .posts .post a:hover .post-meta,
+.posts .post a:hover .post-summary,
 .posts .post a:hover .post-title,
-.posts .post a:hover .post-summary {
-  color: #00abff;
+.site-header a:hover {
+  color: #1a9bfc;
 }
 
 .site-header {
-  text-align: center;
+  text-align: left;
 }
 
 .site-header .site-nav {
-  text-align: center;
+  text-align: left;
+}
+
+.site-title {
+  display: flex;
+  justify-content: flex-start;
+
+  span {
+    transition: all 0.2s ease;
+    text-align: center;
+
+    &.s1 {
+      order: 15;
+      text-transform: lowercase;
+    }
+
+    &.t1 {
+      order: 10;
+      margin-right: 0.5em;
+    }
+
+    &.e1 {
+      order: 14;
+    }
+
+    &.p {
+      order: 9;
+    }
+
+    &.h {
+      order: 3;
+    }
+
+    &.e2 {
+      order: 8;
+    }
+
+    &.n1 {
+      order: 12;
+    }
+
+    &.hh {
+      order: 0;
+    }
+
+    &.a1 {
+      order: 4;
+    }
+
+    &.w1 {
+      order: 14;
+    }
+
+    &.k1 {
+      order: 7;
+    }
+
+    &.e3 {
+      order: 1;
+      margin-right: 0.5em;
+    }
+
+    &.s2 {
+      order: 5;
+      margin-right: 0.5em;
+    }
+  }
+}
+
+.site-title:hover {
+  span {
+    transition: all 0.2s ease;
+    margin: 0;
+
+    &.s1 {
+      order: 0;
+      text-transform: uppercase;
+    }
+
+    &.t1 {
+      order: 1;
+    }
+
+    &.e1 {
+      order: 2;
+    }
+
+    &.p {
+      order: 3;
+    }
+
+    &.h {
+      order: 4;
+    }
+
+    &.e2 {
+      order: 5;
+    }
+
+    &.n1 {
+      order: 6;
+      margin-right: 0.5em;
+    }
+
+    &.hh {
+      order: 8;
+    }
+
+    &.a1 {
+      order: 9;
+    }
+
+    &.w1 {
+      order: 10;
+    }
+
+    &.k1 {
+      order: 11;
+    }
+
+    &.e3 {
+      order: 12;
+    }
+
+    &.s2 {
+      order: 13;
+    }
+  }
 }

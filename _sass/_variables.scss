@@ -1,12 +1,12 @@
 // Typography
 $base-font-size: 14px !default;
 $bold-font-weight: bold !default;
-$font-family: Serif !default;
+$font-family: 'iA Writer Duospace', Serif !default;
 $line-height: 1.5 !default;
-$heading-font-family: Sans-serif !default;
-$heading-font-weight: 900 !default;
+$heading-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$heading-font-weight: bold !default;
 $heading-line-height: 1.25 !default;
-$monospace-font-family: monospace !default;
+$monospace-font-family: 'iA Writer Monospace', monospace !default;
 $h1: 2.998rem !default;
 $h2: 1.5rem !default;
 $h3: 1.25rem !default;
@@ -53,8 +53,8 @@ $darken-3: rgba(#000,.25) !default;
 $darken-4: rgba(#000,.5) !default;
 
 // Links
-$link-color: #00baff;
-$link-hover-color: darken($blue, 40%);
+$link-color: #222;
+$link-hover-color: #1a9bfc;
 
 // Breakpoints
 $breakpoint-md: '(min-width: 52em)';
@@ -130,6 +130,6 @@ $nav-active-border-bottom: 1px solid $light-gray;
 $footer-border-top: thin solid #f3f3f3;
 $footer-padding: $space-3;
 $footer-color: #7a7a7a;
-$footer-bg-color: #fafafa;
+$footer-bg-color: #fff;
 $footer-font-weight: 300;
 $footer-font-size: .75rem;

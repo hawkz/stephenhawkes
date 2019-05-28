@@ -1,7 +1,6 @@
 pre,
 pre code {
-  background-color: transparent;
-  border-radius: $pre-border-radius;
+  background-color: #fff;
 }
 
 pre,
@@ -18,7 +17,8 @@ pre {
   line-height: 1.11;
   overflow-x: scroll;
   margin-bottom: 0.88em;
-  background-color: $pre-background-color;
+  border: thin solid #f3f3f3;
+  border-radius: $pre-border-radius;
 }
 
 .highlight .p {
