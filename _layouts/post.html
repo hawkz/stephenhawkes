@@ -9,8 +9,8 @@ layout: default
 
 <div class="post-header mb2">
   <h1>{{ page.title }}</h1>
-  <span class="post-meta small">{{ page.date | date: site.date_format }} &bull; {% if page.update_date %}
-    {{ site.text.post.updated | default: "Updated" }}: {{ page.update_date | date: site.date_format }} &bull;
+  <span class="post-meta small">{{ page.date | date_to_long_string: site.date_format }} &bull; {% if page.update_date %}
+    {{ site.text.post.updated | default: "Updated" }}: {{ page.update_date | date_to_long_string: site.date_format }} &bull;
   {% endif %}</span>
   <span class="post-meta small">
   {% if page.minutes %}

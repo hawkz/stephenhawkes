@@ -10,9 +10,9 @@ layout: default
         <div class="post py3">
           <p class="post-meta">
 	    {% if site.date_format %}
-	      {{ post.date | date: site.date_format }}
+	      {{ post.date | date_to_long_string: site.date_format }}
 	    {% else %}
-	      {{ post.date | date: "%b %-d, %Y" }}
+	      {{ post.date | date_to_long_string: "%-d %b %Y" }}
 	    {% endif %}
 	  </p>
           <a href="{{ post.url | relative_url }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>

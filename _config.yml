@@ -7,7 +7,7 @@ author:      Stephen Hawkes
 description: "Stephen Hawkes - he has kept news"
 baseurl:     ""
 url:         "http://stephenhawkes.com"
-date_format: "%b %-d, %Y"
+date_format: "ordinal"
 header_pages:
  - about.md
  - contact.html
