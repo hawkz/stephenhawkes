@@ -3,7 +3,7 @@ layout:     post
 title:      Feedback you can't ignore
 date:       2019-05-20 14:00:00
 summary:    There was so much you can take away from Randy Pausch's lectures, particularly the head fake.
-categories: blog business
+categories: blog
 ---
 
 ## Thanks for the feedback

@@ -117,7 +117,7 @@ markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
-paginate:     10
+paginate:     3
 sass:
   style: compressed
 plugins:

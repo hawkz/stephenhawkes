@@ -1,9 +1,9 @@
 ---
 layout:     post
 title:      New years resolutions
-date:       2019-01-1 00:00:00
+date:       2019-1-1 00:00:00
 summary:    It's that time of year again, here's what is topping my list for 2019.
-categories: blog me
+categories: blog
 ---
 
 I hate resolutions. But it's useful to take time out to refocus.
