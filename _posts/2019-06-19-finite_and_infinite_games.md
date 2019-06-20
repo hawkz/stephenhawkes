@@ -43,7 +43,7 @@ Instead of ignoring the debt build-up in favour of some other metric like profit
 
 I have a couple of pet theories: one is that 'Human Resource' is a finite game label - infinite players would have named that team The Empathy Department, Diversity and Inclusion management or People Care. The other is that Retrospectives seem to be universally accepted as a good thing because they invite a discussion on changing the rules and goals to keep the game fun.
 
-## Infinite games aren't easy, just fun
+## Infinite games are not easier
 Games need challenges to be overcome. In infinite dynamics, there is a lot more energy spent on helping players play nicely together, resolving conflict and debating rules and approach. For this to works well, the infinite objective (or mission statement, community goal etc) leads a productive conversations. (Queue the books on getting your 'why' right). If finite thinking creeps in, the conversation moves from collaborative tension to competition and can become toxic. Often the attitude and demeanour of players in these discussions lead to best outcomes. You have to be in the mood to play...
 
 At DEV infinite game thinking really helps me with strategic clarity. I didn't like running a for-profit, because the goal was to 'win', and peers around me defined that as exiting with lo
