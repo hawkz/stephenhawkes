@@ -39,12 +39,11 @@ Suddenly after reading the book, concepts like burn-out in open-source space mad
 
 Infinite games apply to other tricky concepts. It can be said that writing code is creating tech debt. Sometimes (and I know I'll be in trouble for this) I feel it's ok to leave it build when resources are tight. This is because there might be a better way to keep the game moving.
 
-Instead of ignoring the debt build-up in favour of some other metric like profit, I've found that if that tech debt starts to decrease fun then I know that's a signal to work on refactoring or better tooling. Then I react with bigger whole team investments into the problem when that balance tips. Making a new game out of negative scenario. I'm sure there are better patterns for doing tech debt control, but it feels right for me for now.
+Instead of ignoring the debt build-up in favour of some other metric like profit, I've found that if that tech debt starts to decrease fun then I know that's a signal to work on refactoring or better tooling. Then I react with bigger whole team investments into the problem when that balance tips. I imagine there are better patterns for doing tech debt management, but it feels right for me for now.
 
 I have a couple of pet theories: one is that 'Human Resource' is a finite game label - infinite players would have named that team The Empathy Department, Diversity and Inclusion management or People Care. The other is that Retrospectives seem to be universally accepted as a good thing because they invite a discussion on changing the rules and goals to keep the game fun.
 
 ## Not all is rosy in the infinite game.
-
 Games need challenges to be overcome. In infinite dynamics, there is a lot more energy spent on helping players play nicely together, resolving conflict and debating rules and approach. For this to works well, the infinite objective (or mission statement, community goal etc) leads a productive conversations. (Queue the books on getting your 'why' right). If finite thinking creeps in, the conversation moves from collaborative tension to competition and can become toxic. Often the attitude and demeanour of players in these discussions lead to best outcomes. You have to be in the mood to play...
 
 At DEV infinite game thinking really helps me with strategic clarity. I didn't like running a for-profit, because the goal was to 'win', and peers around me defined that as exiting with lo
