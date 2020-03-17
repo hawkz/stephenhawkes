@@ -6,11 +6,11 @@ summary:   Some thoughts on burn-out and what I do about it
 categories: blog
 ---
 
-I'm just back from a team retreat, which is always an incredible tank-filler. Regardless of how well planned or how open the agenda is, there's always something that completely takes me off guard. This time it was a post-it asking me to take more holiday. It really made me realise that my team thinks I'm on a path to burn-out, and maybe I am... something I figure I should write about to get my thoughts together.
+I'm just back from a team retreat, which is always an incredible tank-filler. Regardless of how well planned or how open the agenda is, there's always something that completely takes me off guard. This time it was a post-it asking me to take more holiday. It really made me realise that my team thinks I'm on a path to burn-out, and maybe I am... I figure I should write about to get my thoughts together.
 
 ## What is burnout?
 
-There's lots of different views on burn-out, which likely originates from people's distance from it. Here's how I understand it. Some people describe it as stages, for me it seems more like pillars. 
+There's lots of different views on burn-out, which likely originate from people's distance from it. Here's how I understand it. Some people describe it as stages, for me it seems more like pillars. 
 
 1. ***Walking around feeling constantly under pressure.*** Things feel as though they're getting out of control and running away from what I can manage. The big symptom for me, is waking up with that adrenaline/butterflies feeling in my stomach. Something I really note that I need to listen to. The risk with this pillar is that it's cumulative, each day when I might be in this state adds to the pressure of wanting to get away from the source of stress. 3/4 days of this might feel ok, depending on the trigger, but I'll never really know how many days I can handle before breakdown/collapse.
 
@@ -18,7 +18,7 @@ There's lots of different views on burn-out, which likely originates from people
 
 3. ***The pressure spills across at work***. Often the guilt for any home-life impact or the feeling of not being able to resolve the work pressure builds and then manifests in my work. I might be tetchy or find niggles that I can usually brush off becoming more problematic in my mind. I find I have to apologise for being grouchy. Because part of work is about being professional (professional literally means 'behaviour for money') when this slips I know something needs attention.
 
-The interesting thing for me is that not having gone to a place of breakdown or collapse with burnout where things become clinical it's hard to really understand the dynamic in full, or what the limits are. However, depending on the trigger I might  have any combination of the above. I know I might be able to handle one or two for a period of time. Like pillar one before a big event, or pillar two before a big deadline. But I'm really aware that if I feel all three I'm on track to something bad, and need action. I've no idea how it might feel for you, but this is how I understand it.
+The interesting thing for me is that not having gone to a place of breakdown or collapse with burnout where things become clinical it's hard to really understand the dynamic in full, or what the limits are. However, depending on the trigger I might  have any combination of the above. I know I might be able to handle one or two for a period of time. Like pillar one before a big event, or pillar two before a big deadline. But I'm really aware that if I feel all three I'm on track to something bad, and need action. Healthy people know when they are about to burnout, but I can imagine that some people run on 99.999% for so long they dull that feedback. If you are bursting for a wee and ignore the impulse it goes away, but it isn't good for you! Same applies with stress. I've no idea how it might feel for you, but this is how I understand it. Dulling the feedback by building pillars of burnout.
 
 ## So what do I do to avoid burnout?
 
