@@ -10,24 +10,7 @@ tags: contact
 <p>I'm really grateful for any ideas or feedback I get. Thanks for taking the time to reach out. This internet thing is pretty crazy when you think about it...</p>
 
 <div class="py2">
-  {% if site.ajaxify_contact_form %}
-    <form class="form-stacked">
-      <label>
-        Email
-        <input type="text" name="email" class="field-light" placeholder="{{ site.text.contact.email | default: "Email Address" }}">
-      </label>
-
-      <label>
-        Content
-        <textarea type="text" name="content" class="field-light" rows="5" placeholder="{{ site.text.contact.content | default: "What would you like to say?" }}" style="resize: vertical"></textarea>
-      </label>
-
-      <input type="text" name="_gotcha" style="display:none" />
-
-      <button type='submit' class="button button-blue button-big mobile-block">{{ site.text.contact.submit | default: "Say Hello" }}</button>
-    </form>
-  {% else %}
-    <form action="https://formspree.io/{{ site.email }}" method="POST" class="form-stacked">
+    <form action="https://formspree.io/f/xgepgpgr" method="POST" class="form-stacked">
       <label>
         Email
         <input type="text" name="email" class="field-light" placeholder="{{ site.text.contact.email | default: "Email Address" }}">
@@ -43,9 +26,9 @@ tags: contact
 
       <input type="submit" class="button button-blue button-big mobile-block" value="{{ site.text.contact.submit | default: "Say Hello" }}">
     </form>
-  {% endif %}
+  <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+  <script>
+    window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+    formbutton("create", {action: "https://formspree.io/f/xgepgpgr"})
+  </script>
 </div>
-
-{% if site.ajaxify_contact_form %}
-  {% include ajaxify_content_form.html %}
-{% endif %}
