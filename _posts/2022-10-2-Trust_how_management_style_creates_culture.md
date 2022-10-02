@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Trust: How management style creates cultutre
+title:      Trust is how management creates culture
 date:       2022-10-03 22:20
 summary:    Engage & Empower beats Command & Control
 categories: blog
