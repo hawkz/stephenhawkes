@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Time off the grid
-date:       2022-02-27 09:42
+date:       2023-02-27 09:42
 summary:    Different ways to visualise a calendar
 categories: blog
 ---
