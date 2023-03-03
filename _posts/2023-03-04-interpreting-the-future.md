@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Interpreting, the future
-date:       2023-04-01 1:00
+date:       2023-03-04 1:00
 summary:    Does reuse boil down to translating need?
 categories: blog
 ---
