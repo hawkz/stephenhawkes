@@ -7,9 +7,9 @@ categories: blog
 ---
 
 ## A Tapestry of Connections: Weaving Data and Detective Work
-In the intricate tapestry of data analysis, the Hawkes process emerges as our trusty magnifying glass, enabling us to spot hidden patterns and connections. Just as Dirk Gently unravels mysteries, we can untangle the complexities of our charity work by leveraging this powerful tool within Ochre. Let's embark on a journey where data becomes our partner in crime-solving!
+In the intricate tapestry of data analysis, we use Python as our trusty magnifying glass, enabling us to spot hidden patterns and connections. Just as Dirk Gently unravels mysteries, we can untangle the complexities of our charity work by leveraging this powerful tool within Ochre. Let's embark on a journey where data becomes our partner in mystery-solving!
 
-Dan from Cast set me a challenge in figuring out how we could get more insight from the data collected in Ochre, a platform that records updates about the projects, initiatives, programmes and mission for CAST and Catalyst. Having noodled on it a bit, I'm delighted to have stumbled onto the work named after Dr. Alan G. Hawkes (no relation, or I guess some relation somehow?) You can see it here: [The Hawkes process](https://en.wikipedia.org/wiki/Hawkes_process) I'm going to try and break it down, with a mix of how this is useful and mathsy/pythony examples, hopefully I'll be as hard to follow as Dirk Gently himself...
+[Dan](https://twitter.com/dansutch) from [CAST](https://www.wearecast.org.uk/) set me the challenge of figuring out how we could get more insight from the data collected in Ochre, a platform that records updates about the projects, initiatives, programmes and mission for CAST and Catalyst. Having noodled on it a bit, I'm delighted to have stumbled onto the work named after Dr. Alan G. Hawkes (no relation, or I guess some relation somehow?) You can see it here: [The Hawkes process](https://en.wikipedia.org/wiki/Hawkes_process) I'm going to try and break it down, with a mix of how this is useful and mathsy/pythony examples, hopefully I'll be as hard to follow as Dirk Gently himself...
 
 ![Dirk Gently's desk](/img/hawkes_gently1.png)
 
@@ -43,7 +43,7 @@ In this code snippet, we import the `tick.hawkes` library to access the function
 To estimate the parameters, we use the `fit()` method of the `hk.EmpiricalLasso` estimator from `tick.hawkes`. This estimator performs inference on the given event data and provides estimates for the baseline intensities (`estimated_baseline`) and influence matrix (`estimated_adjacency`). These estimated parameters offer valuable insights into the interconnectedness of events within our educational program.
 
 ### This can lead to 4 types of insight:
-**Magnitude Comparison, Original vs. Estimated Baseline Intensities:** This comparison helps us understand the impact of the Hawkes process on baseline intensities and the potential influence on the overall dynamics of the system. Significant changes may indicate that the Hawkes process has uncovered hidden patterns or variations in the occurrence rates of event types. 
+**Magnitude Comparison, Original vs. Estimated Baseline Intensities:** Helps us understand the impact of the Hawkes process on baseline intensities and the potential influence on the overall dynamics of the system. Significant changes may indicate that the Hawkes process has uncovered hidden patterns or variations in the occurrence rates of event types. 
 
 **Ranking Comparison of Original vs. Estimated Baseline Intensities:** Comparing the original and estimated baseline intensities can provide insights into the relative importance or prominence of different event types. If the rankings of event types based on their intensities change after applying the Hawkes process, it suggests that the process has identified event types that play a more influential role within the system.
 
