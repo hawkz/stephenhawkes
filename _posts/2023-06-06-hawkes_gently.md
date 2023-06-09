@@ -13,6 +13,16 @@ In the intricate tapestry of data analysis, we use Python as our trusty magnifyi
 
 ![Dirk Gently's desk](/img/hawkes_gently1.png)
 
+In Dirk's world, events are like clues that lead us to unravel the mysteries of how things are connected. Just as Dirk follows a trail of clues, the Hawkes process helps us follow a trail of events and understand their hidden relationships. Let's imagine that these events are like puzzle pieces, and the Hawkes process is our magical magnifying glass that helps us fit them together.
+
+Picture a scene where people are gathered, birds are singing, and cars are honking in a bustling city. The Hawkes process allows us to investigate how these events influence each other. For example, Dirk might notice that when people start clapping, it often leads to more birds chirping happily. Similarly, when birds chirp, it can trigger more cars to honk along the streets. Dirk's sharp detective skills help him see these connections and patterns.
+
+Using special tools, like Dirk's detective machine, we record when events occur and their types. We feed this data into the machine, and it works its magic, just like Dirk solving a perplexing case. The machine analyzes the data and reveals the likelihood of one event causing another event, like a chain reaction of clues.
+
+With the help of the Hawkes process, Dirk Gently can uncover the hidden connections between events. It's like peering into a web of secrets and discovering how everything is intertwined. By understanding these connections, Dirk can make predictions about what might happen next or uncover the underlying mysteries of the world.
+
+
+## How do we build Dirk's Detective Machine for CAST?
 Imagine that we have collected data on various events within the CAST capacity building program, such as training sessions, design hops, and deliverables shared. To uncover insights and understand the interconnectedness of these events, we can use the Hawkes process. In Python, we can utilize libraries such as `tick` or `PyHawkes` to implement the Hawkes process. Here's an example to kickstart our detective work:
 
 ```python
