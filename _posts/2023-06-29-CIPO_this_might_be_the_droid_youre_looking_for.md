@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      CIPO: This might be the reuse tool you're looking for
+title:      This might be the reuse tool you're looking for
 date:       2023-06-29 14:00:00
 summary:    Understanding reuse potential though simple sentences
 
