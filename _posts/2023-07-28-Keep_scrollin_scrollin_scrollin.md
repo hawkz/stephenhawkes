@@ -6,15 +6,13 @@ date: 2023-07-24
 categories: blog, productivity, programming
 ---
 
-# Breaking the Scroll Chain: Building a Chrome Extension to Kick the YouTube Habit
-
-We've all been there. You open YouTube to watch that one video you've been meaning to catch up on, and suddenly, it's 2 am, and you're watching a documentary about the migratory patterns of African elephants. "How did I get here?", you wonder. Well, my friend, welcome to the world of YouTube scrolling addiction. A seemingly innocent pastime, but one that can turn into a pretty hefty personal challenge - just the way they engineered it! Today, we'll be turning the tables on this productivity zapper by building a Chrome extension that shuts down any tab that navigates to YouTube. Sounds fun? Let's dive right in!
+We've all been there. You open YouTube to watch that one video you've been meaning to catch up on, and suddenly, it's 2 am, and you're watching a documentary about the migratory patterns of African elephants. "How did I get here?", you wonder. Well, my friend, welcome to the world of YouTube scrolling addiction. A seemingly innocent pastime, but one that can turn into a pretty hefty personal challenge - just the way they engineered it! Today, I'll be turning the tables on this productivity zapper by building a Chrome extension that shuts down any tab that navigates to YouTube. Sounds fun? Let's dive right in!
 
 ## The Journey Begins
 
-Our quest began with the basic structure of a Chrome extension, which includes two key files: `manifest.json` (the metadata for the extension) and `background.js` (where the JavaScript magic happens). With `manifest.json`, I declared the extension's name, version, description, and permissions. In `background.js`, we added a simple script to close the tab if the URL contains 'youtube.com'. 
+Our quest began with the basic structure of a Chrome extension, which includes two key files: `manifest.json` (the metadata for the extension) and `background.js` (where the JavaScript magic happens). With `manifest.json`, I declared the extension's name, version, description, and permissions. In `background.js`, I added a simple script to close the tab if the URL contains 'youtube.com'. 
 
-I bet you're thinking, "That's it? We're done?" Well, not quite. While we were on the right track, we realized our extension was a tad overzealous. It was closing tabs not just when the domain was 'youtube.com', but even when 'youtube.com' was part of another hostname or elsewhere in the URL. I decided to use the URL API to parse the URL and specifically check the domain, a few tweaks to our `background.js`, and voila! Our extension was now only closing tabs where the domain was 'www.youtube.com'. All was well, or so I thought...
+I bet you're thinking, "That's it? We're done?" Well, not quite. While I was on the right track, I realized our extension was a tad overzealous. It was closing tabs not just when the domain was 'youtube.com', but even when 'youtube.com' was part of another hostname or elsewhere in the URL. I decided to use the URL API to parse the URL and specifically check the domain, a few tweaks to our `background.js`, and voila! Our extension was now only closing tabs where the domain was 'www.youtube.com'. All was well, or so I thought...
 
 ## The Devil is in the Details
 
@@ -51,7 +49,7 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
 ```
 
 So, the next time you find yourself spiraling down the YouTube rabbit hole, remember, there's an extension for that!
-You can see on the ![Chrome extension store](https://chrome.google.com/webstore/detail/youtube-tab-closer/bkmmkahjjgbmohlhefciefafnekeecoe?hl=en-GB&authuser=1) if you want just grab a copy for your Brave/Chrome browser.
+You can see on the [Chrome extension store](https://chrome.google.com/webstore/detail/youtube-tab-closer/bkmmkahjjgbmohlhefciefafnekeecoe?hl=en-GB&authuser=1) if you want just grab a copy for your Brave/Chrome browser.
 
 ---
 
