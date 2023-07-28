@@ -3,7 +3,7 @@ layout: post
 title:  Building a Color Picker App for macOS
 summary: Causing a rumpus with Python and Rumps
 date:   2023-07-25
-categories: python macOS rumps
+categories: [python, programming, rumps]
 ---
 
 Hello there! Today, I'll be sharing a fun project I've been working on - building a color picker app for macOS using Python and Rumps. Grab a cup of coffee, sit back, and let's get into it.

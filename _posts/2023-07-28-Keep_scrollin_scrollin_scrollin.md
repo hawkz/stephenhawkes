@@ -3,7 +3,7 @@ layout: post
 title: Breaking the Scroll Chain
 summary: Building a Chrome Extension to Kick the YouTube Habit
 date: 2023-07-24
-categories: blog, productivity, programming
+categories: [blog, productivity, programming]
 ---
 
 We've all been there. You open YouTube to watch that one video you've been meaning to catch up on, and suddenly, it's 2 am, and you're watching a documentary about the migratory patterns of African elephants. "How did I get here?", you wonder. Well, my friend, welcome to the world of YouTube scrolling addiction. A seemingly innocent pastime, but one that can turn into a pretty hefty personal challenge - just the way they engineered it! Today, I'll be turning the tables on this productivity zapper by building a Chrome extension that shuts down any tab that navigates to YouTube. Sounds fun? Let's dive right in!

@@ -3,7 +3,7 @@ layout:     post
 title:      Time off the grid
 date:       2023-02-27 09:42
 summary:    Different ways to visualise a calendar
-categories: blog
+categories: [blog, productivity, resource]
 ---
 
 It's been half-term, often when I get a chance to be unplugged for a while and off the grid if I can. Often though this gives my mind space to think more about big picture things about DEV, and that can lead to 40,000 feet ideas about re-organising everything.

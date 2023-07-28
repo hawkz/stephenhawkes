@@ -3,7 +3,7 @@ layout:     post
 title:      This might be the reuse tool you're looking for
 date:       2023-06-29 14:00:00
 summary:    Understanding reuse potential though simple sentences
-categories: blog
+categories: [blog, sector]
 ---
 
 Efficient software reuse is critical particularly in resource-constrained sectors like the third sector. However, uncovering common solutions among seemingly unrelated problems can be a challenge, especially for individuals without years of digital experience. In this blog post, I wanted to explore how an abstract perspectives and the CIPO model (Context, Inputs, Processes, Outputs) can unlock the potential for reusability and facilitate effective software component reuse.

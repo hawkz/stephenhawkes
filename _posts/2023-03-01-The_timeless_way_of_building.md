@@ -3,7 +3,7 @@ layout:     post
 title:      The timeless way of building
 date:       2023-03-01 07:00
 summary:    Learning from architecture when delivering third-sector reuse
-categories: blog
+categories: [blog, sector, philosophy]
 ---
 
 A friend of mine sent me a really fascinating book about architectural principles. While I initially found it to be almost foreign in the concepts it covers, slowly it became clear that the principles it contains do unlock the way forward for a current space I'm working in for software reuse.

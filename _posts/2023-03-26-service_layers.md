@@ -3,7 +3,7 @@ layout:     post
 title:      Learning Service Layers
 date:       2023-03-26 20:00
 summary:    What's next for service layers?
-categories: blog
+categories: [blog, sector]
 ---
 
 ## The Importance of Service Layer Reuse for Charities and Non-Profit organisations

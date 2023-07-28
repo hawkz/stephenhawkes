@@ -3,7 +3,7 @@ layout:     post
 title:      Dirk Gently Unraveling the Data Web
 date:       2023-06-09 08:30:00
 summary:    Exploring Ochre with the Hawkes Process
-categories: blog
+categories: [blog, sector]
 ---
 
 ## A Tapestry of Connections: Weaving Data and Detective Work
