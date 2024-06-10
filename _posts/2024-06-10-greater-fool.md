@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      How to Be a Greater Fool: Leveraging Market Dynamics for Third Sector Success
+title:      How to be a Greater Fool
 date:       2024-06-10 7:00:00
-summary:    Understanding how contributing more than you receive can help agencies thrive in the third sector.
+summary:    A formula for a gut feel for good
 categories: [blog, sector]
 ---
 
