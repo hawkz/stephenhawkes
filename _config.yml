@@ -116,6 +116,11 @@ text:
 
 # Build settings
 markdown:     kramdown
+kramdown:
+  math_engine: mathjax
+  math_engine_opts:
+    inline_math_delimiters: ['$', '$']
+    block_math_delimiters: [['$$', '$$'], ['\\[', '\\]']]
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
