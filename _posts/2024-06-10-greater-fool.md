@@ -6,6 +6,9 @@ summary:    A formula for a gut feel for good
 categories: [blog, sector]
 ---
 
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 In the ever-evolving landscape of charities and non-profits, securing a spot at the top can feel like a game of musical chairs. Everyone wants to be there, but only a few can. It's a bit zero-sum in its design and doesn't really help the sector. Systems like Dovetail are where this plays out, we need to communicate the 'best' option, the top listing - but how do you do that? During the start of the pandemic, I had the privilege of witnessing something truly remarkable. Agencies came together with CAST (Centre for the Acceleration of Social Technology) and funders like Nominet to look at how best to support the sector. In an unprecedented move, these agencies put the needs of the sector above their own gain, collaborating to ensure that charities could continue their vital work amidst the crisis. It was a powerful reminder of what can be achieved when we prioritize collective well-being over individual gain.
 
 This spirit of cooperation is something I've been seeking to capture as a method—a way to replicate this selfless drive even in the absence of a crisis. Imagine a world where agencies consistently operate with this mindset, fostering a thriving, resilient third sector. What if this could be a simple formula?
@@ -14,7 +17,7 @@ This spirit of cooperation is something I've been seeking to capture as a method
 
 Imagine a directory where charities find the best agencies to help them with digital projects. To ensure that the best agencies rise to the top, we've devised a ranking formula that balances contributions and benefits, promoting market growth and stability. Here’s the formula:
 
-$\[ \text{Rank} = \frac{(\text{Value You Give} - \text{Value You Get}) \times \text{Interaction Quality} \times \text{Engagement Level}}{\text{Time in Directory} \times \text{Diversity Factor}} \]$
+\[ \text{Rank} = \frac{(\text{Value You Give} - \text{Value You Get}) \times \text{Interaction Quality} \times \text{Engagement Level}}{\text{Time in Directory} \times \text{Diversity Factor}} \]
 
 Let’s break this down:
 
