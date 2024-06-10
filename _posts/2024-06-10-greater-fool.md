@@ -17,7 +17,7 @@ This spirit of cooperation is something I've been seeking to capture as a method
 
 Imagine a directory where charities find the best agencies to help them with digital projects. To ensure that the best agencies rise to the top, we've devised a ranking formula that balances contributions and benefits, promoting market growth and stability. Here’s the formula:
 
-$$\[ \text{Rank} = \frac{(\text{Value You Give} - \text{Value You Get}) \times \text{Interaction Quality} \times \text{Engagement Level}}{\text{Time in Directory} \times \text{Diversity Factor}} \]$$
+$$\text{Rank} = \frac{(\text{Value You Give} - \text{Value You Get}) \times \text{Interaction Quality} \times \text{Engagement Level}}{\text{Time in Directory} \times \text{Diversity Factor}}$$
 
 Let’s break this down:
 
