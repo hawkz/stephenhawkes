@@ -1,13 +1,13 @@
-media: assets/uploads
+media: img
 
 content:
   - name: posts
     label: Blog Posts
     type: collection
-    path: '_posts'
+    path: "_posts"
+    create: true
     view:
       fields: [ title, published, date ]
-    create: true
     fields:
       - name: published
         label: Published
@@ -29,7 +29,19 @@ content:
   - name: about
     label: About Page
     type: file
-    path: 'about.md'
+    path: "about.md"
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: body
+        label: Body
+        type: rich-text
+
+  - name: contact
+    label: Contact Page
+    type: file
+    path: "contact.html"
     fields:
       - name: title
         label: Title
@@ -41,7 +53,7 @@ content:
   - name: config
     label: Site Settings
     type: file
-    path: '_config.yml'
+    path: "_config.yml"
     fields:
       - name: title
         label: Website title
