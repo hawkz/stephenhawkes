@@ -1,35 +1,59 @@
+input: .
+output: .
 siteName: "Stephen Hawkes"
-collections:
-  - name: "posts"
-    label: "Blog Posts"
-    folder: "_posts"
-    create: true
-    format: "yaml-frontmatter"
-    fields:
-      - { name: "title", label: "Title", widget: "string" }
-      - { name: "date", label: "Date", widget: "datetime" }
-      - { name: "layout", label: "Layout", widget: "string", default: "post" }
-      - { name: "tags", label: "Tags", widget: "list", default: [] }
-      - { name: "body", label: "Content", widget: "markdown" }
-
-  - name: "pages"
-    label: "Pages"
-    folder: ""
-    files:
-      - file: "about.md"
-        label: "About"
-        name: "about"
-        fields:
-          - { name: "title", label: "Title", widget: "string" }
-          - { name: "layout", label: "Layout", widget: "string", default: "page" }
-          - { name: "body", label: "Content", widget: "markdown" }
-      - file: "contact.html"
-        label: "Contact"
-        name: "contact"
-        fields:
-          - { name: "title", label: "Title", widget: "string" }
-          - { name: "layout", label: "Layout", widget: "string", default: "page" }
-          - { name: "body", label: "Content", widget: "markdown" }
-
 media:
-  folder: "assets/uploads"
+  input: assets/uploads
+  output: assets/uploads
+collections:
+  posts:
+    label: "Blog Posts"
+    path: _posts
+    create: true
+    fields:
+      title:
+        label: "Title"
+        type: string
+      date:
+        label: "Date"
+        type: datetime
+      layout:
+        label: "Layout"
+        type: string
+        default: "post"
+      tags:
+        label: "Tags"
+        type: list
+      body:
+        label: "Content"
+        type: markdown
+  pages:
+    label: "Static Pages"
+    files:
+      about:
+        label: "About"
+        path: about.md
+        fields:
+          title:
+            label: "Title"
+            type: string
+          layout:
+            label: "Layout"
+            type: string
+            default: "page"
+          body:
+            label: "Content"
+            type: markdown
+      contact:
+        label: "Contact"
+        path: contact.html
+        fields:
+          title:
+            label: "Title"
+            type: string
+          layout:
+            label: "Layout"
+            type: string
+            default: "page"
+          body:
+            label: "Content"
+            type: markdown
