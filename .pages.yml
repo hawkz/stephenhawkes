@@ -1,59 +1,55 @@
-input: .
-output: .
-siteName: "Stephen Hawkes"
-media:
-  input: assets/uploads
-  output: assets/uploads
-collections:
-  posts:
-    label: "Blog Posts"
-    path: _posts
+media: assets/uploads
+
+content:
+  - name: posts
+    label: Blog Posts
+    type: collection
+    path: '_posts'
+    view:
+      fields: [ title, published, date ]
     create: true
     fields:
-      title:
-        label: "Title"
+      - name: published
+        label: Published
+        type: boolean
+        default: true
+      - name: date
+        label: Date
+        type: date
+      - name: title
+        label: Title
         type: string
-      date:
-        label: "Date"
-        type: datetime
-      layout:
-        label: "Layout"
-        type: string
-        default: "post"
-      tags:
-        label: "Tags"
+      - name: tags
+        label: Tags
         type: list
-      body:
-        label: "Content"
-        type: markdown
-  pages:
-    label: "Static Pages"
-    files:
-      about:
-        label: "About"
-        path: about.md
-        fields:
-          title:
-            label: "Title"
-            type: string
-          layout:
-            label: "Layout"
-            type: string
-            default: "page"
-          body:
-            label: "Content"
-            type: markdown
-      contact:
-        label: "Contact"
-        path: contact.html
-        fields:
-          title:
-            label: "Title"
-            type: string
-          layout:
-            label: "Layout"
-            type: string
-            default: "page"
-          body:
-            label: "Content"
-            type: markdown
+      - name: body
+        label: Body
+        type: rich-text
+
+  - name: about
+    label: About Page
+    type: file
+    path: 'about.md'
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: body
+        label: Body
+        type: rich-text
+
+  - name: config
+    label: Site Settings
+    type: file
+    path: '_config.yml'
+    fields:
+      - name: title
+        label: Website title
+        type: string
+      - name: description
+        label: Website description
+        type: string
+      - name: url
+        label: Website URL
+        type: string
+        pattern: ^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$
