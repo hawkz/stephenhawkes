@@ -26,42 +26,251 @@ content:
         label: Body
         type: rich-text
 
-  - name: about
-    label: About Page
-    type: file
-    path: "about.md"
-    fields:
-      - name: title
-        label: Title
-        type: string
-      - name: body
-        label: Body
-        type: rich-text
-
-  - name: contact
-    label: Contact Page
-    type: file
-    path: "contact.html"
-    fields:
-      - name: title
-        label: Title
-        type: string
-      - name: body
-        label: Body
-        type: rich-text
-
   - name: config
-    label: Site Settings
+    label: Jekyll Configuration
     type: file
     path: "_config.yml"
     fields:
+      - name: remote_theme
+        label: Remote Theme
+        type: string
+
       - name: title
-        label: Website title
+        label: Site Title
+        type: string
+      - name: email
+        label: Email
+        type: string
+      - name: author
+        label: Author
         type: string
       - name: description
-        label: Website description
+        label: Description
+        type: string
+      - name: baseurl
+        label: Base URL
         type: string
       - name: url
-        label: Website URL
+        label: URL
         type: string
-        pattern: ^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$
+      - name: date_format
+        label: Date Format
+        type: string
+      - name: header_pages
+        label: Header Pages
+        type: list
+
+      - name: google_verification
+        label: Google Verification
+        type: string
+      - name: google_analytics
+        label: Google Analytics
+        type: string
+      - name: google_tag_manager
+        label: Google Tag Manager
+        type: string
+      - name: bing_verification
+        label: Bing Verification
+        type: string
+
+      - name: future
+        label: Future Posts
+        type: boolean
+
+      - name: animated
+        type: boolean
+      - name: show_related_posts
+        type: boolean
+      - name: show_post_footers
+        type: boolean
+      - name: show_social_icons
+        type: boolean
+      - name: ajaxify_contact_form
+        type: boolean
+      - name: enable_mathjax
+        type: boolean
+      - name: extended_fonts
+        type: boolean
+      - name: enable_anchorjs
+        type: boolean
+      - name: post_preview_image
+        type: boolean
+
+      - name: fb_page
+        type: boolean
+      - name: fb_page_id
+        type: string
+
+      - name: disqus_shortname
+        type: string
+      - name: facebook_comments
+        type: boolean
+      - name: facebook_appid
+        type: string
+      - name: facebook_comments_number
+        type: number
+
+      - name: github_username
+        type: string
+      - name: reddit_username
+        type: string
+      - name: bitbucket_username
+        type: string
+      - name: stackoverflow_id
+        type: string
+      - name: twitter_username
+        type: string
+      - name: skype_username
+        type: string
+      - name: steam_nickname
+        type: string
+      - name: google_plus_id
+        type: string
+      - name: linkedin_username
+        type: string
+      - name: angellist_username
+        type: string
+      - name: medium_id
+        type: string
+      - name: bitcoin_url
+        type: string
+      - name: paypal_url
+        type: string
+      - name: flattr_button
+        type: string
+      - name: telegram_username
+        type: string
+      - name: vk_id
+        type: string
+
+      - name: show_sharing_icons
+        type: boolean
+      - name: share_facebook
+        type: boolean
+      - name: share_twitter
+        type: boolean
+      - name: share_googleplus
+        type: boolean
+      - name: share_linkedin
+        type: boolean
+      - name: share_digg
+        type: boolean
+      - name: share_tumblr
+        type: boolean
+      - name: share_reddit
+        type: boolean
+      - name: share_stumbleupon
+        type: boolean
+      - name: share_hackernews
+        type: boolean
+
+      - name: text
+        label: Text
+        type: object
+        fields:
+          - name: pagination
+            type: object
+            fields:
+              - name: newer
+                type: string
+              - name: older
+                type: string
+          - name: share_buttons
+            type: object
+            fields:
+              - name: text
+                type: string
+              - name: facebook
+                type: string
+              - name: twitter
+                type: string
+              - name: googleplus
+                type: string
+              - name: linkedin
+                type: string
+              - name: digg
+                type: string
+              - name: tumblr
+                type: string
+              - name: reddit
+                type: string
+              - name: stumbleupon
+                type: string
+              - name: hackernews
+                type: string
+          - name: post
+            type: object
+            fields:
+              - name: updated
+                type: string
+              - name: minute_read
+                type: string
+              - name: related_posts
+                type: string
+          - name: index
+            type: object
+            fields:
+              - name: coming_soon
+                type: string
+          - name: contact
+            type: object
+            fields:
+              - name: email
+                type: string
+              - name: content
+                type: string
+              - name: subject
+                type: string
+              - name: submit
+                type: string
+              - name: ajax
+                type: object
+                fields:
+                  - name: sending
+                    type: string
+                  - name: sent
+                    type: string
+                  - name: error
+                    type: string
+          - name: thanks
+            type: string
+          - name: og_locale
+            type: string
+
+      - name: markdown
+        type: string
+      - name: kramdown
+        type: object
+        fields:
+          - name: math_engine
+            type: string
+          - name: math_engine_opts
+            type: object
+            fields:
+              - name: inline_math_delimiters
+                type: list
+              - name: block_math_delimiters
+                type: list
+
+      - name: redcarpet
+        type: object
+        fields:
+          - name: extensions
+            type: list
+
+      - name: permalink
+        type: string
+      - name: paginate
+        type: number
+
+      - name: sass
+        type: object
+        fields:
+          - name: style
+            type: string
+
+      - name: plugins
+        type: list
+
+      - name: exclude
+        type: list
