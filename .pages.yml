@@ -14,14 +14,17 @@ content:
         type: boolean
         default: true
       - name: date
-        label: Date
+        label: DateTime
         type: date
       - name: title
         label: Title
         type: string
-      - name: tags
-        label: Tags
-        type: list
+      - name: summary
+        label: Summary
+        type: string
+      - name: categories
+        label: Categories
+        type: string
       - name: body
         label: Body
         type: rich-text
