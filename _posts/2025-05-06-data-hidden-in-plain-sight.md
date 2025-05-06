@@ -2,10 +2,10 @@
 published: true
 date: 2025-05-06
 title: Data Hidden in Plain Sight
-summary: "Making images that quietly carry meaning, and footer "
+summary: Making images that quietly carry meaning, and footers that serve double duty.
 categories: blog
 ---
-Sometimes, websites need to quietly tell machines (like Google, AI tools, or screen readers) what something _means_. Not just what it looks like. That’s what **structured data** is for — little bits of extra information that say, “Hey, this is an organisation,” or “This is a job listing,” or “This photo is licensed for reuse.”
+Sometimes, websites need to quietly tell machines (like Google, AI tools, or screen readers) what something _means_. Not just what it looks like. That’s what structured data is for — little bits of extra information that say, “Hey, this is an organisation,” or “This is a job listing,” or “This photo is licensed for reuse.”
 
 Usually, that info lives in the website’s code. But what if you **can’t** change the code? I've recently been playing with the idea of ISO badges (inspired by our recent re-certification) and the process of adding those annual badges to the footer of our site.
 
