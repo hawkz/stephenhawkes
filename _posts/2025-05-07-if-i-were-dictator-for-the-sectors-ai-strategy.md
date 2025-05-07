@@ -9,7 +9,8 @@ categories: blog
 ---
 Yesterday I took part in a roundtable focused on the future of free legal advice, and I left inspired. The conversation centred on something simple but powerful: how we coordinate our work around AI and tech to better serve frontline organisations. Not to invent more tools, but to create the scaffolding that helps people use the ones we've already built.
 
-> It reminded me how much more we could do—if we weren’t scattered. That then sparked with the constant barrage of the current new cycle, leading to me pondering:  
+It reminded me how much more we could do—if we weren’t scattered. That then sparked with the constant barrage of the current news cycle, leading to me pondering:
+
 > "If I had the power to dictate the social sector’s AI response—to unify, not control—what would I _actually_ do?"
 
 Here’s my manifesto.
