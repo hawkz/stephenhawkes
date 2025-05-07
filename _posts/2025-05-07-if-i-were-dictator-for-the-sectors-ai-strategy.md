@@ -16,7 +16,7 @@ Here’s my manifesto.
 
 ## **We Need Radical Coherence, Not More Tools**
 
-## This is not about accelerating adoption. It’s about slowing down to align. Right now, the sector is full of energy, experiments, and well-intentioned pilots. But we lack shared scaffolding. We duplicate. We chase shiny tools. We let hype outrun purpose.
+This is not about accelerating adoption. It’s about slowing down to align. Right now, the sector is full of energy, experiments, and well-intentioned pilots. But we lack shared scaffolding. We duplicate. We chase shiny tools. We let hype outrun purpose.
 
 So, in this thought experiment, I’m your benevolent dictator. Not forever—just long enough to lay the groundwork. (That's what they all say, right?!!)
 
@@ -34,8 +34,6 @@ That means:
     
 
 Most AI projects will fail not because the tech is wrong, but because the thinking is shallow. Phase 1 doctrine makes that failure harder to repeat.
-
-* * *
 
 ### **2\. Open IP, Always - Be Transparent**
 
@@ -89,13 +87,13 @@ Design is co-created. Feedback is continuous. Value is real.
 
 ### **5\. Train People, Not Just Models - Common language**
 
-Too much AI literacy is abstract. We're being an AI project is like saying we're building a software project, and unchecked will drive duplication. We can use Wardley mapping here to break down systems and have better conversations, but also have courses like [CAST's AI first step](https://www.wearecast.org.uk/our-work/free-digital-resources/getting-started-with-ai-a-free-self-serve-course/) learned by all.
+Too much AI literacy is abstract. We're being an AI project is like saying we're building a software project, and unchecked will drive duplication. We can use [Wardley mapping](https://learnwardleymapping.com/) here to break down systems and have better conversations, but also have courses like [CAST's AI first step](https://www.wearecast.org.uk/our-work/free-digital-resources/getting-started-with-ai-a-free-self-serve-course/) learned by all.
 
 So we start from plain language.
 
 *   Everyone moves from jargon to terms they understand to the next level of detail.
     
-*   Everyone learns to map. It only takes a few minutes.
+*   Everyone learns to map. [It only takes a few minutes](https://learnwardleymapping.com/).
     
 *   Therefore everyone can spot tech theatre.
     
@@ -110,15 +108,17 @@ That roundtable I attended? It’s already happening:
 
 *   Legal advice networks naming their needs.
     
-*   Funders wanting to coordinate better.
+*   Funders wanting to coordinate better, calling for data standards.
     
 *   Initiatives trying to collate and centralise support.
     
 *   Whiteboards filled with ideas for sharing what works and what doesn’t.
     
 
-The question isn’t “should we do this?” It’s “how quickly can we align around doing it together?”
+The question isn’t “should we do this?” It’s “how quickly and urgently can we align around doing it together?”
 
 ### **It's good that I'm not a dictator...**
 
-I don’t want control. I want alignment. We all know its not the right way to govern, but seeing the frustration and hunger for a cohesive strategy for the sector was really fun to think though. Shared doctrine. Open systems. Co-ordinated funding. User-led tools. Plain language. This is what we know, lets hopefully not let a two letter term trip us up and instead use it to create radical coherence.
+I don’t want control. I want alignment because the waste is heart-breaking to watch. We all know dictatorship is not the right way to govern, but seeing the frustration and hunger in the room yesterday for a cohesive strategy really gave me something to think though. Shared doctrine. Open systems. Co-ordinated funding. User-led tools. Plain language. This is what we know, lets hopefully not let a two letter term trip us up and instead use it to create radical coherence.
+
+## Long live the rebellion
