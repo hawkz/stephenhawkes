@@ -114,4 +114,34 @@ That roundtable I attended? It’s already happening:
 
 This was the source of my hope. The question isn’t “should we do this?” It’s “how quickly and urgently can we align around doing it together?”.
 
+Where did this all come from?
+
+I've been a massive fan of Wardley Mapping and Doctrine for a while. They're worth reading, here's the list of things to consider from Phase 1 of Simon Wardley's strategy listed out:  
+  
+**1\. Focus on user needs**  
+_Understand and meet the real needs of your users._ Start with user research; map needs explicitly before proposing solutions.
+
+**2\. Use a common language**  
+_Create shared terms so teams can collaborate effectively._ Establish and document shared definitions; avoid jargon or silos.
+
+**3\. Be transparent**  
+_Make information visible to foster alignment and trust._ Share maps, decisions, and rationales openly across teams.
+
+**4\. Challenge assumptions**  
+_Don’t take things at face value—ask why things are done that way._ Regularly run “premortems” or ask “what if we’re wrong?” in planning sessions.
+
+**5\. Remove duplication**  
+_Avoid reinventing the wheel; reuse before you build._ Inventory internal tools and check what already exists before starting new work.
+
+**6\. Think small teams**  
+_Smaller, autonomous teams move faster and adapt better._ Organise around empowered, cross-functional teams with clear goals.
+
+**7\. Understand the details**  
+_Strategy requires grasping the operational ground._ Spend time with front-line teams; map workflows before high-level decisions.
+
+**8\. Be humble**  
+_Accept you don’t know everything and may be wrong._ Encourage questions, reward learning from mistakes, and avoid “hero” culture.  
+  
+One of the delegates was calling for a new framework for seeing this challenge of AI through. I wonder if what we need to do is re-discover an existing framework.
+
 I really want alignment because the waste is heart-breaking to watch. Seeing the hunger in the room last week for a cohesive strategy really gave me something to think though. Shared doctrine. Open systems. Co-ordinated funding. User-led tools. Plain language. This is what we know, lets hopefully not let a two letter term trip us up and instead use it to create radical coherence.
