@@ -1,17 +1,15 @@
 ---
 published: true
 date: 2025-05-07
-title: If I Were Dictator for the Sector’s AI Strategy
-summary: Dictatorship is sadly on the rise, but if I was a benevolent dictator,
-  what would I do for the sector? And why the free legal advice sector gave me
-  hope
+title: My wish for the Sector’s AI Strategy
+summary: What would I do for the sector? And why free legal advice gave me hope.
 categories: blog
 ---
-Yesterday I took part in a roundtable focused on the future of free legal advice, and I left inspired. The conversation centred on something simple but powerful: how we coordinate our work around AI and tech to better serve frontline organisations. Not to invent more tools, but to create the scaffolding that helps people use the ones we've already built.
+Last week I took part in a roundtable focused on the future of free legal advice in the face of AI, and I left inspired. The conversation centred on something simple but powerful: how we coordinate our work around AI and tech to better serve frontline organisations. Not to invent more tools, but to create the scaffolding that helps people use the ones we've already built.
 
 It reminded me how much more we could do—if we weren’t scattered. That then sparked with the constant barrage of the current news cycle, leading to me pondering:
 
-> "If I had the power to dictate the social sector’s AI response—to unify, not control—what would I _actually_ do?"
+> "If I had the power to dictate the sector’s AI response—what would I _actually_ do?"
 
 Here’s my manifesto.
 
@@ -19,11 +17,9 @@ Here’s my manifesto.
 
 This is not about accelerating adoption. It’s about slowing down to align. Right now, the sector is full of energy, experiments, and well-intentioned pilots. But we lack shared scaffolding. We duplicate. We chase shiny tools. We let hype outrun purpose.
 
-So, in this thought experiment, I’m your benevolent dictator. Not forever—just long enough to lay the groundwork. (That's what they all say, right?!!)
+### **1\. Start with Doctrine, Not Technology.**
 
-### **1\. Start with Doctrine, Not Technology. Dictators use situational awareness.**
-
-Every organisation would adopt [Wardley Doctrine Phase 1](https://learnwardleymapping.com/doctrine/) as the baseline.
+Every organisation would adopt [Wardley Doctrine Phase 1](https://learnwardleymapping.com/doctrine/) as the baseline to their strategy.
 
 That means:
 
@@ -44,7 +40,7 @@ No locked-in models. No secret sauce. No proprietary infrastructure acting as a 
 
 This isn't idealism. It’s trust, audit-ability, and collaboration. We can’t build sector-wide confidence on black-box systems.
 
-### **3\. Procurement as a Strategic Filter (Ethical DOGE or DOGS "The department of governing sustainably")**
+### **3\. Procurement as a Strategic Filter**
 
 We don’t need 40 chatbots doing the same half-useful thing. We need a filter that:
 
@@ -68,7 +64,7 @@ And here’s the kicker:
 *   Acts as a coordination layer, not a bottleneck
     
 
-This is the memory the sector currently lacks. The funders have the power and resources, so we need that weilded toward solution. Unlike a dictatorship or oligarchy funders are independent, so shared data standards will give a massive win to all of them. It doesn't have to be complex: "is this already funded?" and a list of past grantees and providers comes back.
+This is the memory the sector currently lacks. The funders have the power and resources, so we need that weilded toward solution. A shared data standard will give a massive win to all funders, and gives us a shot at spending that can reach the multi-million totals needed in the space. It doesn't have to be complex: "is this already funded?" and a list of past grantees and providers comes back.
 
 ### **4\. Know Users and Their Needs by Actually Listening**
 
@@ -116,10 +112,6 @@ That roundtable I attended? It’s already happening:
 *   Whiteboards filled with ideas for sharing what works and what doesn’t.
     
 
-The question isn’t “should we do this?” It’s “how quickly and urgently can we align around doing it together?”
+This was the source of my hope. The question isn’t “should we do this?” It’s “how quickly and urgently can we align around doing it together?”.
 
-### **It's good that I'm not a dictator...**
-
-I don’t want control. I want alignment because the waste is heart-breaking to watch. We all know dictatorship is not the right way to govern, but seeing the frustration and hunger in the room yesterday for a cohesive strategy really gave me something to think though. Shared doctrine. Open systems. Co-ordinated funding. User-led tools. Plain language. This is what we know, lets hopefully not let a two letter term trip us up and instead use it to create radical coherence.
-
-## Long live the rebellion
+I really want alignment because the waste is heart-breaking to watch. Seeing the hunger in the room last week for a cohesive strategy really gave me something to think though. Shared doctrine. Open systems. Co-ordinated funding. User-led tools. Plain language. This is what we know, lets hopefully not let a two letter term trip us up and instead use it to create radical coherence.
