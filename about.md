@@ -1,5 +1,3 @@
-# About
-
 Hi, I'm Steve. I am a co-founder of The Developer Society and love working with NGOs and charities to deliver purpose filled digital projects. DEV is a great digital co-op, that's doing so well at making a positive difference, I'm proud to be a part of that story.
 
 ![My photo](/img/about-steve.jpg)
