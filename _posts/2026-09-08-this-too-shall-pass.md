@@ -1,6 +1,6 @@
 ---
 published: true
-date: 2026-09-08
+date: 2026-09-07
 title: This too shall pass
 summary: Walking outside and rambling to myself about the future
 categories: Blog
@@ -63,7 +63,7 @@ Oddly, we spend much less strategic energy on some of these near-certainties tha
 
 Not ignoring uncertainty. Not ignoring technological change. Not refusing to place bets. Just sizing our confidence appropriately.
 
-## Perhaps the bigger game is trust 
+## Perhaps the bigger game is trust
 
 This matters for governance, organisational design and digital transformation. Of course we should try to succeed. We should use AI where it genuinely improves things. We should experiment. Learn. Anticipate. Make good strategic plays.
 
