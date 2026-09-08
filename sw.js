@@ -10,6 +10,8 @@ self.addEventListener("install", function(e) {
         "{{ '/css/pixyll.css' | relative_url }}?{{ site.time | date: '%Y%m%d%H%M' }}",
         "{{ '/' | relative_url }}"
       ]);
+    }).then(function() {
+      return self.skipWaiting();
     })
   );
 });
@@ -23,13 +25,25 @@ self.addEventListener("activate", function(e) {
             return caches.delete(name);
           }
         })
-      );
+      ).then(function() {
+        return clients.claim();
+      });
     })
   );
-  return clients.claim();
 });
 
 addEventListener("fetch", function(e) {
+  if (e.request.mode === "navigate") {
+    e.respondWith(
+      fetch(e.request).catch(function() {
+        return caches.match(e.request).then(function(response) {
+          return response || caches.match("{{ '/' | relative_url }}");
+        });
+      })
+    );
+    return;
+  }
+
   e.respondWith(
     caches.match(e.request).then(function(response) {
         return response || fetch(e.request).then(function(response) {
