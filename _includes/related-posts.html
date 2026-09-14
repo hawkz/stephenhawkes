@@ -1,0 +1,97 @@
+{% assign related_count = 0 %}
+{% assign related_seen = '|' | append: page.url | append: '|' %}
+
+<h3 class="related-post-title">{{ site.text.post.related_posts | default: "See also" }}</h3>
+
+{%- comment -%}
+  1. Respect explicit editorial choices from `see_also` front matter.
+  Pages CMS stores each reference as the source post path.
+{%- endcomment -%}
+{% if page.see_also %}
+  {% for related_path in page.see_also %}
+    {% if related_count < 3 %}
+      {% assign related_post = site.posts | where: "path", related_path | first %}
+      {% if related_post %}
+        {% assign related_needle = '|' | append: related_post.url | append: '|' %}
+        {% unless related_seen contains related_needle %}
+          <div class="post ml2">
+            <a href="{{ related_post.url | relative_url }}" class="post-link">
+              <h4 class="post-title">{{ related_post.title }}</h4>
+              {% if related_post.summary %}<p class="post-summary">{{ related_post.summary }}</p>{% endif %}
+            </a>
+          </div>
+          {% assign related_seen = related_seen | append: related_post.url | append: '|' %}
+          {% assign related_count = related_count | plus: 1 %}
+        {% endunless %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{%- comment -%}
+  2. Fill remaining slots with posts sharing taxonomy. `categories` remains for
+  old posts; new content should use `tags`. Ignore the generic `blog` category.
+{%- endcomment -%}
+{% capture current_topics_csv %}{{ page.tags | join: ',' }},{{ page.categories | join: ',' }}{% endcapture %}
+{% assign current_topics = current_topics_csv | split: ',' %}
+
+{% for minimum_score in (1..2) reversed %}
+  {% if related_count < 3 %}
+    {% for candidate in site.posts %}
+      {% if related_count < 3 and candidate.url != page.url %}
+        {% assign candidate_needle = '|' | append: candidate.url | append: '|' %}
+        {% unless related_seen contains candidate_needle %}
+          {% capture candidate_topics_csv %}{{ candidate.tags | join: ',' }},{{ candidate.categories | join: ',' }}{% endcapture %}
+          {% assign candidate_topics = candidate_topics_csv | split: ',' %}
+          {% assign topic_score = 0 %}
+
+          {% for current_topic_raw in current_topics %}
+            {% assign current_topic = current_topic_raw | strip | downcase %}
+            {% unless current_topic == '' or current_topic == 'blog' %}
+              {% for candidate_topic_raw in candidate_topics %}
+                {% assign candidate_topic = candidate_topic_raw | strip | downcase %}
+                {% if candidate_topic == current_topic %}
+                  {% assign topic_score = topic_score | plus: 1 %}
+                  {% break %}
+                {% endif %}
+              {% endfor %}
+            {% endunless %}
+          {% endfor %}
+
+          {% if topic_score >= minimum_score %}
+            <div class="post ml2">
+              <a href="{{ candidate.url | relative_url }}" class="post-link">
+                <h4 class="post-title">{{ candidate.title }}</h4>
+                {% if candidate.summary %}<p class="post-summary">{{ candidate.summary }}</p>{% endif %}
+              </a>
+            </div>
+            {% assign related_seen = related_seen | append: candidate.url | append: '|' %}
+            {% assign related_count = related_count | plus: 1 %}
+          {% endif %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+{%- comment -%}
+  3. Sparse legacy posts may have no useful taxonomy. Use recent posts only as
+  a final fallback rather than pretending recency itself means relevance.
+{%- endcomment -%}
+{% if related_count < 3 %}
+  {% for candidate in site.posts %}
+    {% if related_count < 3 and candidate.url != page.url %}
+      {% assign candidate_needle = '|' | append: candidate.url | append: '|' %}
+      {% unless related_seen contains candidate_needle %}
+        <div class="post ml2">
+          <a href="{{ candidate.url | relative_url }}" class="post-link">
+            <h4 class="post-title">{{ candidate.title }}</h4>
+            {% if candidate.summary %}<p class="post-summary">{{ candidate.summary }}</p>{% endif %}
+          </a>
+        </div>
+        {% assign related_seen = related_seen | append: candidate.url | append: '|' %}
+        {% assign related_count = related_count | plus: 1 %}
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+{% endif %}

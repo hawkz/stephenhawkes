@@ -1,54 +1,22 @@
----
-layout: null
----
-var CACHE_NAME = "pixyll2-{{site.time | date: '%Y%m%d%H%M%S'}}";
-
-self.addEventListener("install", function(e) {
-  e.waitUntil(
-    caches.open(CACHE_NAME).then(function(cache) {
-      return cache.addAll([
-        "{{ '/css/pixyll.css' | relative_url }}?{{ site.time | date: '%Y%m%d%H%M' }}",
-        "{{ '/' | relative_url }}"
-      ]);
-    })
-  );
+// Retirement worker for the old Pixyll cache-first service worker.
+// Keep this file temporarily so browsers with the old worker installed can
+// receive the update, clear stale caches, and unregister it.
+self.addEventListener('install', function () {
+  self.skipWaiting();
 });
 
-self.addEventListener("activate", function(e) {
-  e.waitUntil(
-    caches.keys().then(function(names) {
-      return Promise.all(
-        names.map(function(name) {
-          if (name != CACHE_NAME) {
-            return caches.delete(name);
-          }
-        })
-      );
-    })
-  );
-  return clients.claim();
-});
+self.addEventListener('activate', function (event) {
+  event.waitUntil((async function () {
+    var cacheNames = await caches.keys();
+    await Promise.all(cacheNames.map(function (cacheName) {
+      return caches.delete(cacheName);
+    }));
 
-addEventListener("fetch", function(e) {
-  e.respondWith(
-    caches.match(e.request).then(function(response) {
-        return response || fetch(e.request).then(function(response) {
-        var clonedResponse = response.clone();
-        var hosts = [
-          "https://fonts.googleapis.com",
-          "https://fonts.gstatic.com",
-          "https://maxcdn.bootstrapcdn.com",
-          "https://cdnjs.cloudflare.com"
-        ];
-        hosts.map(function(host) {
-          if (e.request.url.indexOf(host) === 0) {
-            caches.open(CACHE_NAME).then(function(cache) {
-              cache.put(e.request, clonedResponse);
-            });
-          }
-        });
-        return response;
-      });
-    })
-  );
+    await self.registration.unregister();
+
+    var windows = await self.clients.matchAll({ type: 'window' });
+    windows.forEach(function (client) {
+      client.navigate(client.url);
+    });
+  })());
 });
